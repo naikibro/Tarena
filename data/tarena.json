@@ -1,0 +1,152 @@
+[
+  {
+    "moon": "Tireo",
+    "fish": "Nuit riche en poissons (en particulier les I'ihi) - Filet ouvert vers la plage",
+    "plants": "Planter l'ananas, le manioc Bonne germination des semis"
+  },
+  {
+    "moon": "Hirohiti",
+    "fish": "Nuit riche en poissons (en particulier les manini) - hamecon en ligne",
+    "plants": "Planter le umara et le ufi"
+  },
+  {
+    "moon": "Hoata",
+    "fish": "Les poissons forment des bancs - pêcher à la lueur des torches de ni'au",
+    "plants": null
+  },
+  {
+    "moon": "Hāmiama Mua",
+    "fish": "Les poissons forment des bancs - pêcher à la lueur des torches de ni'au",
+    "plants": null
+  },
+  {
+    "moon": "Hāmiama Roto",
+    "fish": "les poissons forment des bancs distincts - pêcher à la lueur des torches de ni'au mais pas avant que la lune est disparue et qu'il fasse noir. Sur les récifs on trouve des langoustes et des 'oiro. On peut pêcher des uhu et des tarao",
+    "plants": null
+  },
+  {
+    "moon": "Hāmiama Muri",
+    "fish": "Les poissons nagent en grandes courbes et forment des bancs. Pêcher avec des torches depuis la pirogue. Dans les chenaux des récifs on peut attraper des mu (dorade tropicale) des vete (capusin) des ume (nason)",
+    "plants": null
+  },
+  {
+    "moon": "Ōrērē Mua",
+    "fish": "Les poissons disparaissent cette nuit. Période d'accouplement. Filet ouvert vers la plange. Plonger profondément le filet en attendant le flux de la mer, juste au moment où le soleil descend",
+    "plants": null
+  },
+  {
+    "moon": "Ōrērē Roto",
+    "fish": "Les poissons disparaissent cette nuit. Période d'accouplement. On peut attraper des mu (dorade tropiclae ) au filet. ",
+    "plants": null
+  },
+  {
+    "moon": "Tamatea",
+    "fish": "les grands poissons ( to'au (vivaneau à queue noir), taea, maene(empereur strié), 'auhopu... ) surgissent des profondeurs et se dirigent vers les bancs de sable. Filet ouvert vers la terre au coucher de soleil",
+    "plants": null
+  },
+  {
+    "moon": "Huna",
+    "fish": "Les yeux des poissons sont fermés, ils dorment. Pas de poissons, inutile de pêcher. ",
+    "plants": null
+  },
+  {
+    "moon": "Rapu",
+    "fish": "Les œufs de poissons sont prêts. Nuit sans poisson. Les seuls que l'on peut attraper sont les maena. Filet ouvert vers la terre au coucher de soleil",
+    "plants": null
+  },
+  {
+    "moon": "Maharu",
+    "fish": "les poissons restent à un endroit pour déposer leurs œufs. Il est inutile de pêcher. ",
+    "plants": null
+  },
+  {
+    "moon": "Ohua",
+    "fish": "Il y a beaucoup de poissons, ils forment des bancs. Les mu'u et les tuhara sont présents, filet ouvert vers la plage. ",
+    "plants": null
+  },
+  {
+    "moon": "Maitu",
+    "fish": "Les maito, les 'turi', les para'I et les poissons rouges peuvent être pris au filet",
+    "plants": "Jour favorable pour tout planter"
+  },
+  {
+    "moon": "Hotu",
+    "fish": "Utilisé le filet en tournant vers la plage",
+    "plants": null
+  },
+  {
+    "moon": "Marai",
+    "fish": "Les carapaces de crabes se ramollissent. ",
+    "plants": "Matinée favorable pour planter des fruits et légumes comestibles"
+  },
+  {
+    "moon": "Turu",
+    "fish": "Inutile de pêcher. Accouplement des crabes et créatures de la mer cette nuit",
+    "plants": "Jour favorable pour tout planter en particulier les bananiers, les fei, et les cocotiers"
+  },
+  {
+    "moon": "Rā'au Mua",
+    "fish": "Nuit sans poisson. Tortues et grands poissons empruntent les chenaux des récifs. Les uhu, les pa'auara entrent dans les chenaux lorsque le to'erau (vent du nord) souffle. ",
+    "plants": null
+  },
+  {
+    "moon": "Rā'au Roto",
+    "fish": "Il n'est pas recommandé de pêcher cette nuit à cause des tupapa'u qui rodent pour protéger des mauvais esprits mais troublent fish. ",
+    "plants": "Jour favorable pour tout planter ce qui est comestible"
+  },
+  {
+    "moon": "Rā'au Muri",
+    "fish": "Il n'est pas recommandé de pêcher cette nuit mais il y a des 'ihi. Utilisez le filet, ouverture vers la plage. ",
+    "plants": null
+  },
+  {
+    "moon": "Ōrērē Mua",
+    "fish": "Les gros poissons sont au large. Les poissons perdent leurs écailles, inutile de pêcher ",
+    "plants": null
+  },
+  {
+    "moon": "Ōrērē Roto",
+    "fish": "Pas de poissons, inutile de pêcher",
+    "plants": null
+  },
+  {
+    "moon": "Ōrērē Muri",
+    "fish": "Les gros poissons partis au large ne mordent pas l'hameçon.",
+    "plants": null
+  },
+  {
+    "moon": "Ta'aroa Mua",
+    "fish": "Poissons à long bec (ono, ha'ura et les 'a'avera sont importants. Filets encombrés de araoe. Ouverture du filet vers la terre. ",
+    "plants": null
+  },
+  {
+    "moon": "Ta'aroa Roto",
+    "fish": "Poissons à long bec (ono, ha'ura et les 'a'avera sont importants. Filets encombrés de araoe. Ouverture du filet vers la terre. ",
+    "plants": null
+  },
+  {
+    "moon": "Ta'aroa Muri",
+    "fish": "Il y a du poisson",
+    "plants": null
+  },
+  {
+    "moon": "Tāne",
+    "fish": "Il y a du poisson",
+    "plants": null
+  },
+  {
+    "moon": "Roonui",
+    "fish": "Pendant cette nuit, toutes sortes de poissons courent",
+    "plants": null
+  },
+  {
+    "moon": "Roo mauri",
+    "fish": "le meilleur moment pour la pose du filet correspond au moment juste avant le coucher de soleil. Il faut pointer l'ouverture de celui ci vers la terre. ",
+    "plants": null
+  },
+  {
+    "moon": "Mutu",
+    "fish": "Il n'y a aucun poisson, inutile de pêcher. ",
+    "plants": null
+  }
+]
