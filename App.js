@@ -1,5 +1,14 @@
 import React, { useState, useEffect } from "react";
-import { StyleSheet, ScrollView, StatusBar, Text, View } from "react-native";
+import {
+  StyleSheet,
+  ScrollView,
+  StatusBar,
+  Text,
+  View,
+  Image,
+  Dimensions,
+  SafeAreaView,
+} from "react-native";
 
 import tarenaMarch2024 from "./data/2024-03-tarena";
 import tarenaData from "./data/tarena.json";
@@ -13,7 +22,8 @@ const TarenaCard = ({ moon, fishingAdvice, plantingAdvice }) => {
         bottom: 0,
         backgroundColor: "lightgray",
         padding: 20,
-        margin: 15,
+        marginHorizontal: 15,
+        marginBottom: 60,
         borderRadius: 20,
       }}
     >
@@ -21,6 +31,7 @@ const TarenaCard = ({ moon, fishingAdvice, plantingAdvice }) => {
       <Text style={{ color: "black", marginVertical: 10, fontSize: 15 }}>
         {fishingAdvice}
       </Text>
+
       <Text style={{ color: "black", marginVertical: 10, fontSize: 15 }}>
         {plantingAdvice}
       </Text>
@@ -32,6 +43,7 @@ export default function App() {
   const [moonPhase, setMoonPhase] = useState("");
   const [fishingAdvice, setFishingAdvice] = useState("");
   const [plantingAdvice, setPlantingAdvice] = useState("");
+  const [todayDate, setTodayDate] = useState("");
 
   useEffect(() => {
     const getFormattedDate = () => {
@@ -43,6 +55,8 @@ export default function App() {
     };
 
     const today = getFormattedDate();
+    setTodayDate(today);
+
     const todayMoonPhase =
       tarenaMarch2024.find((item) => item.date === today)?.moonPhase ||
       "Moon phase not available for today";
@@ -60,14 +74,28 @@ export default function App() {
 
   return (
     <ScrollView contentContainerStyle={styles.container}>
-      <Text></Text>
-      <MoonCard />
-      <TarenaCard
-        moon={moonPhase}
-        fishingAdvice={fishingAdvice}
-        plantingAdvice={plantingAdvice}
-      />
-      <StatusBar style="auto" />
+      <SafeAreaView style={styles.container}>
+        <Text style={{ color: "white", marginTop: 20, fontSize: 30 }}>
+          {todayDate}
+        </Text>
+        <MoonCard date={todayDate} />
+        <Image
+          source={require("./assets/dsk2.png")}
+          style={{
+            position: "absolute",
+            width: "100%",
+            height: "100%",
+            opacity: 0.1,
+            alignSelf: "center",
+          }}
+        />
+        <TarenaCard
+          moon={moonPhase}
+          fishingAdvice={fishingAdvice}
+          plantingAdvice={plantingAdvice}
+        />
+        <StatusBar style="auto" />
+      </SafeAreaView>
     </ScrollView>
   );
 }
@@ -76,6 +104,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     alignItems: "center",
-    justifyContent: "center",
+    justifyContent: "flex-start",
+    backgroundColor: "black",
   },
 });
